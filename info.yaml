@@ -8,7 +8,7 @@ project:  # design 32 bit binary counter.
   language: "Verilog"  # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 50000000  # Clock frequency in Hz (or 0 if not applicable)
   tiles: "1x1" # How many tiles your design occupies? A single tile is about 167x108 uM. Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-  top_module: "tt_um_Counter_shivam" # Your top module name must start with "tt_um_". Make it unique by including your github username:
+  top_module: "tt_um_Counter_1_shivam" # Your top module name must start with "tt_um_". Make it unique by including your github username:
   source_files:        
   - "tt_um_Counter.v" # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
 
