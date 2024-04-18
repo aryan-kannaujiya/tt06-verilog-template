@@ -5,7 +5,7 @@
 
 `define default_netname none
 
-module tt_um_Counter_shivam (
+module tt_um_Counter_1_shivam (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
